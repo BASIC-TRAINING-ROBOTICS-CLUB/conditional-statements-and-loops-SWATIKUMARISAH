@@ -1,0 +1,10 @@
+Digital Logic Expression Evaluator
+
+Create a program that evaluates digital logic expressions. For example, given an expression like (A AND B) OR (NOT C), 
+the program should evaluate it based on the values of A, B, and C.
+
+Develop a library that incoorporates the necessary functions or classes to perform essential calculations required by users. 
+Also submit a document file about the things you learned while doing the task( be it mathematics, logic or even code syntax ).
+
+Documentation is mandatory regardless of whether the task is completed.If the task is not completed, provide a detailed explanation of the technical 
+reasons or challenges that prevented its completion.
