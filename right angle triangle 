@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main() {
+    float a, b, c;
+    printf("Enter the length of three sides: ");
+    scanf("%f %f %f", &a, &b, &c);
+    if (a*a == b*b + c*c || b*b == a*a + c*c || c*c == a*a + b*b)
+        printf("The triangle is right-angled\n");
+    else
+        printf("The triangle is not right-angled\n");
+    return 0;
+}
+
