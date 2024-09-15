@@ -1,0 +1,35 @@
+
+#include <iostream>
+#include <string>
+
+// Define a structure for the student's information
+struct Student {
+    std::string name;
+    int grade;
+    int rollNumber;
+    std::string bloodGroup;
+};
+
+int main() {
+    // Create a variable of type Student
+    Student student;
+
+    // Get the student's information from the user
+    std::cout << "Enter name: ";
+    std::getline(std::cin, student.name);
+    std::cout << "Enter grade: ";
+    std::cin >> student.grade;
+    std::cout << "Enter roll number: ";
+    std::cin >> student.rollNumber;
+    std::cout << "Enter blood group: ";
+    std::cin >> student.bloodGroup;
+
+    // Print the ID card
+    std::cout << "\nSchool ID Card\n";
+    std::cout << "Name: " << student.name << std::endl;
+    std::cout << "Grade: " << student.grade << std::endl;
+    std::cout << "Roll Number: " << student.rollNumber << std::endl;
+    std::cout << "Blood Group: " << student.bloodGroup << std::endl;
+
+    return 0;
+}
