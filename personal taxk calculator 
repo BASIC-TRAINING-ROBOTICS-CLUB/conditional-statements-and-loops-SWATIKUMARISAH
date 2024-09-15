@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "calc.h"
+
+int main() {
+    double a = 10.0, b = 5.0;
+    
+    printf("Add: %.2f\n", add(a, b));
+    printf("Subtract: %.2f\n", subtract(a, b));
+    printf("Multiply: %.2f\n", multiply(a, b));
+    printf("Divide: %.2f\n", divide(a, b));
+    printf("Factorial of 5: %lld\n", factorial(5));
+    
+    return 0;
+}
